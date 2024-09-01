@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+
+}
+
+
+#top {
+    position: relative;
+    width: 100%;
+    min-height: 85vh;
+    background-image: url("img/vegetables.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#overlay {
+    position:absolute;
+    top:0;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.4);
+   
+}
+
+.flex {
+    display: flex;
+}
+
+.bold {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#navbar {
+    max-width: 70vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 30px 0;
+    text-transform: uppercase;
+
+
+}
+
+#navbar .p1 {
+
+    color: white;
+    align-items: center;
+    gap: 10px;
+    font-family: cursive, sans-serif;
+}
+
+.p1 .p1-1 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#navbar .p2 {
+    color: #fff;
+    align-items: center;
+    gap: 30px;
+}
+
+.p2 img {
+    width: 25px;
+}
+
+#navbar .p2 li {
+    list-style: none;
+
+}
+
+#navbar .p2 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.img-w {
+    filter: invert(1);
+}
+
+.btn {
+    border: 2px solid white;
+    padding: 10px 15px;
+
+}
+#navbar li a:hover{
+    color:mediumseagreen;
+}
+
+#content1 .text1 {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+}
+
+.text1 h1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#content1 #searchBar {
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+}
+
+#searchBar > select, input, button {
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    padding:10px 15px;
+    font-size:14px;
+    
+}
+
+select option {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.greenbtn{
+    background-color:green;
+    padding:10px 40px;
+    cursor:pointer;
+}
+                               /* main body */
+
+#section1{
+    width:100%;
+ min-height:110vh;
+}
+#section1 #container1{
+    max-width:81vw;
+    margin:auto;
+
+}
+#container1 .text2{
+    width:inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding:50px 0;
+
+}
+#container1 .text2 h1{
+    font-family: cursive, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#container1 .text2 p{
+    color:grey;
+}
+#container1 .element1{
+    justify-content: space-between;
+    align-items: center;
+    width:inherit;
+    padding:20px 0 30px 0;
+}
+.element1 select{
+    background-color:green;
+    color:white;
+    padding:10px 15px;
+
+}
+.progressiveBar{
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    width:300px
+}
+#container1 .bar{
+    border:2px solid grey;
+    width:100%;
+    margin:18px 30px;
+    border-radius:15px;
+}
+.bar .bar1{
+    width:30%;
+        background-color:green;
+        padding:5px;
+        border-radius: 5px;
+}
+
+.content2 .box{
+    width:25vw;
+    margin:10px auto;
+    background:hsl(34, 100%, 95%);
+    height:55vh; 
+}
+.content2 .box #boxtop{
+    width:inherit;
+    height:32vh;
+}
+.content2 .box #boxbottom {
+    height:22vh;
+    margin: 8px;
+    /* background-color: red; */
+}
+.box #boxtop img{
+    width:inherit;
+    height:inherit;
+    object-fit:cover;
+}
+.box #boxbottom .bb1{
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-family: "Baloo 2";
+    font-weight: 600;
+    font-size: large;
+}
+.descriptionF{
+    padding:10px;
+    color:grey;
+    /* background-color: beige; */
+    margin:8px;
+}
+.box #boxbottom .bb3{
+    justify-content:space-between;
+    align-items: center;
+    color:rgb(47, 47, 47);
+    font-size:14px;
+}
+.box #boxbottom .bb3 span{
+    align-items: center;
+    gap: 5px;
+}
+.read:hover{
+    color:mediumseagreen;
+    cursor:pointer;
+}
+
+#container1 .dot{
+    margin:20px;
+    padding:20px;
+    text-align: center;
+    font-family: cursive;
+    border:2px solid grey;
+    cursor:pointer;
+    font-size:18px;
+    font-weight: 600;
+}
+.dot:hover{
+    background-color:rgba(60, 179, 114, 0.644);
+
+    color:white;
+}
+footer .endSection{
+    min-height:25vh;
+    background-color:rgb(10, 50, 63);
+    margin-top:20px;
+    padding:25px 40px;
+    justify-content: space-around;
+
+}
+.endSection .part1 {
+    color:white;
+    font-family: cursive;
+    flex-direction: column;
+    gap:20px;
+}
+.endSection .part2{
+    color:rgb(255, 255, 255);
+    gap:40px;
+    font-size:16px;
+    padding:20px;
+}
+.endSection .part2 .pp1 ,.pp2{
+    flex-direction: column;
+    gap:15px;
+}
+
+.endSection .part2 ul li{
+    list-style:none;
+}
+.endSection .boldL{
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: 700;
+    /* font-family:sans-serif; */
+}
